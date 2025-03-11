@@ -13,6 +13,7 @@ function MainLayout() {
   return (
     <div>
         <Hero/>
+        <div className={style['line']}></div>
         <SectionL heading="Video of Modules" text="Explore handpicked video playlists that have been used by toppers to excel in their studies. These playlists are carefully compiled to provide you with the best resources available, ensuring you learn from the most effective content." image={img1} buttonText="Go to Playlist"/>
         <div className={style['line']}></div>
         <SectionR heading="Last-Minute Study" text="Need to cram? Our full syllabus playlists, selected from resources trusted by top students, are perfect for last-minute revision. Get the essential knowledge you need to pass with confidence, all in one night." image={img2} buttonText="Start Last Minute PREP"/>
