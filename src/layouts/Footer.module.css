@@ -1,0 +1,28 @@
+.footer-container{
+    min-height: 80vh;
+    padding: 10vh 5vh 1vh 5vh;
+    background-color: #3b065e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content{
+    max-width: 80vw;
+}
+
+.contact-card{
+    max-width: 70vw;
+    padding: 5vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:550px) {
+    .contact-card{
+        flex-direction: column;
+        gap: 5vh;
+    }
+}
