@@ -1,9 +1,13 @@
 import React from 'react'
 import style from './Card.module.css'
 
-function Card({color}) {
+function Card({color, image, heading, text, width, height, colorHeading, colorText}) {
   return (
-    <div className={style['card-container']} style={{backgroundColor: color}}></div>
+    <div className={style['card-container']} style={{backgroundColor: color, width: width+'px', height: height+'px'}}>
+      <span className={style['card-image']}>{image}</span>
+      <span className={style['card-heading']} style={{color: colorHeading}}>{heading}</span>
+      <span className={style['card-text']} style={{color: colorText}}>{text}</span>
+    </div>
   )
 }
 

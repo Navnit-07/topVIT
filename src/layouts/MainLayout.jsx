@@ -8,11 +8,13 @@ import img4 from '../assets/6.jpg'
 import SectionR from '../components/SectionR'
 import SectionL from '../components/SectionL'
 import Footer from './Footer'
+import Features from '../components/Features'
 
 function MainLayout() {
   return (
     <div>
         <Hero/>
+        <Features/>
         <div className={style['line']}></div>
         <SectionL heading="Video of Modules" text="Explore handpicked video playlists that have been used by toppers to excel in their studies. These playlists are carefully compiled to provide you with the best resources available, ensuring you learn from the most effective content." image={img1} buttonText="Go to Playlist"/>
         <div className={style['line']}></div>

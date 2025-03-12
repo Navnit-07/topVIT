@@ -1,4 +1,26 @@
 .card-container{
-    width: 30vw;
-    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-image{
+    font-size: 48px;
+}
+
+.card-heading{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width:360px) {
+    .card-container{
+        width: 90vw !important;
+    }
+    .card-text{
+        font-size: 12px;
+    }
 }
