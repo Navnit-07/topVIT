@@ -69,10 +69,15 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 610px) {
     .image-container{
-        margin-top: 10vh;
-        width: 85%;
-        height: 40vh;
+        display: none;
+    }
+    .hero-container{
+        min-height: fit-content;
+    }
+    .content-container{
+        margin: 8vh 0;
+        min-height: fit-content;
     }
 }
