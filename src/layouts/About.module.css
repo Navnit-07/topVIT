@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    line-height: 2.5;
+    color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p{
+    width: 80%;
+    margin: 10vh 0;
+    text-align: justify;
+}
