@@ -1,8 +1,9 @@
 import React from 'react'
 import style from './SectionL.module.css'
 import Button from './Button'
+import { Link } from 'react-router-dom'
 
-function SectionL({heading, text, image, buttonText}) {
+function SectionL({heading, text, image, buttonText, to}) {
   return (
     <div className={style['container']}>
         <div className={style['content-container']}>
@@ -12,7 +13,7 @@ function SectionL({heading, text, image, buttonText}) {
             <div className={style['heading-container']}>
                 <h1 className={style['heading']}>{heading}</h1>
                 <p className={style['sub-heading']}>{text}</p>
-                <Button text={buttonText}/>
+                <Link to={to}><Button text={buttonText}/></Link>
             </div>
         </div>
     </div>

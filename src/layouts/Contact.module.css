@@ -1,0 +1,11 @@
+.contact-card{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    user-select: text;
+    gap: 5vh;
+}

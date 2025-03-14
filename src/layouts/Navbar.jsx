@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import style from './Navbar.module.css'
 import logo from '../assets/logo.png'
 import hambIcon from '../assets/hamburger-menu-line-icon.jpg'
@@ -13,9 +14,9 @@ function Navbar() {
         </div>
         <div className={style['nav-right']}>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
+                <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='/about'>About</NavLink></li>
+                <li><NavLink to='/contact'>Contact Us</NavLink></li>
             </ul>
         </div>
         <div className={style['hamburger-container']}>
@@ -23,9 +24,9 @@ function Navbar() {
             
                 (   <div className={style['hamburger-menue']}>
                         <img src={hambCloseIcon} alt="X" onClick={()=>{setisMenueOpen(false)}}/>
-                        <p>Home</p>
-                        <p>About</p>
-                        <p>Contact Us</p>
+                        <p><NavLink to='/'>Home</NavLink></p>
+                        <p><NavLink to='/about'>About</NavLink></p>
+                        <p><NavLink to='/contact'>Contact Us</NavLink></p>
                         </div>
                 ) : (
                     

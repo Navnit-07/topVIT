@@ -8,7 +8,7 @@ import img4 from '../assets/6.jpg'
 import SectionR from '../components/SectionR'
 import SectionL from '../components/SectionL'
 import Footer from './Footer'
-import Features from '../components/Features'
+import Features from './Features'
 
 function MainLayout() {
   return (
@@ -16,15 +16,13 @@ function MainLayout() {
         <Hero/>
         <Features/>
         <div className={style['line']}></div>
-        <SectionL heading="Video of Modules" text="Explore handpicked video playlists that have been used by toppers to excel in their studies. These playlists are carefully compiled to provide you with the best resources available, ensuring you learn from the most effective content." image={img1} buttonText="Go to Playlist"/>
+        <SectionL heading="Video of Modules" text="Explore handpicked video playlists that have been used by toppers to excel in their studies. These playlists are carefully compiled to provide you with the best resources available, ensuring you learn from the most effective content." image={img1} buttonText="Go to Playlist" to="/playlist"/>
         <div className={style['line']}></div>
-        <SectionR heading="Last-Minute Study" text="Need to cram? Our full syllabus playlists, selected from resources trusted by top students, are perfect for last-minute revision. Get the essential knowledge you need to pass with confidence, all in one night." image={img2} buttonText="Start Last Minute PREP"/>
+        <SectionR heading="Last-Minute Study" text="Need to cram? Our full syllabus playlists, selected from resources trusted by top students, are perfect for last-minute revision. Get the essential knowledge you need to pass with confidence, all in one night." image={img2} buttonText="Start Last Minute PREP" to="/last-minute-playlist"/>
         <div className={style['line']}></div>
-        <SectionL heading="Toppers' Notes" text="Access high-quality notes from top performers. These well-organized and concise notes are tailored to help you understand complex topics and retain key information, making your study sessions more productive." image={img3} buttonText="Get Notes"/>
+        <SectionL heading="Toppers' Notes" text="Access high-quality notes from top performers. These well-organized and concise notes are tailored to help you understand complex topics and retain key information, making your study sessions more productive." image={img3} buttonText="Get Notes" to="/notes"/>
         <div className={style['line']}></div>
-        <SectionR heading="Guidance from 9+ CGPA Achievers" text="Get personalized guidance and tips directly from students who have excelled with 9+ CGPA. Learn their study strategies, time management techniques, and get answers to your questions to boost your academic journey." image={img4} buttonText="Get Expert Guidance"/>
-
-        <Footer/>
+        <SectionR heading="Guidance from 9+ CGPA Achievers" text="Get personalized guidance and tips directly from students who have excelled with 9+ CGPA. Learn their study strategies, time management techniques, and get answers to your questions to boost your academic journey." image={img4} buttonText="Get Expert Guidance" to="/guidance"/>
     </div>
   )
 }

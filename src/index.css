@@ -8,9 +8,19 @@
   /* background-color: #242424; */
 
   font-synthesis: none;
+  user-select: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+a:-webkit-any-link {
+  color: unset;
+  text-decoration: none;
+}
+
+.active{
+  color:red !important;
 }
 
 *{

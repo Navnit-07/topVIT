@@ -35,6 +35,7 @@ ul{
 }
 
 .nav-right ul li{
+    /* color:#111111 !important; */
     position: relative;
     z-index: 1;
     cursor: pointer;
