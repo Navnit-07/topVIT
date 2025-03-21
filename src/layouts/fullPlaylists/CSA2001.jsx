@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './CSA2001.module.css'
+import style from './fullPlaylist.module.css'
 import { Link } from 'react-router-dom'
 import Card from '../../components/Card'
 

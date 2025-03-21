@@ -3,7 +3,7 @@ import Card from '../../components/Card'
 import style from './fullPlaylist.module.css'
 import { Link } from 'react-router-dom'
 
-function ECE2002() {
+function MAT2003() {
   return (
     <div className={style['container']}>
       <p className={style['para']}>Mostly follow 1st playlist but if you find difficulty in understanding then you can refer to 2nd playlist. For other modules that are not in these playlist simply watch any video or use AI chatbot of your choice to cover syllabus as they are theory portions.</p>
@@ -15,4 +15,4 @@ function ECE2002() {
   )
 }
 
-export default ECE2002
+export default MAT2003

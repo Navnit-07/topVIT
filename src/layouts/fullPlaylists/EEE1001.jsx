@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../components/Card'
-import style from './EEE1001.module.css'
+import style from './fullPlaylist.module.css'
 
 function EEE1001() {
   return (
