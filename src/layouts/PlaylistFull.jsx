@@ -14,22 +14,22 @@ function PlaylistFull() {
             <Link to='/full-playlists-mat2003'><Card color='#5d3be7' image='🕵🏻‍♂️' heading='MAT2003' text='APPLIED NUMERICAL METHODS' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
 
             <Link to='/full-playlists-phy1001'><Card color='#bd72ef' image='👨🏻‍🔬' heading='PHY1001' text='ENGINEERING PHYSICS' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
-            <Link to='/full-playlists-chy1001'><Card color='#bd72ef' image='🧪' heading='CHY1001' text='ENGINEERING CHEMISTRY' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
-            <Link to='/full-playlists-chy1005'><Card color='#5d3be7' image='🧬' heading='CHY1005' text='INTRODUCTION TO COMPUTATIONAL CHEMISTRY' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
-            <Link to='/full-playlists-phy1003'><Card color='#8b72ee' image='👨🏻‍🏫' heading='PHY1003' text='INTRODUCTION TO COMPUTATIONAL PHYSICS' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
+            {/* <Link to='/full-playlists-chy1001'><Card color='#bd72ef' image='🧪' heading='CHY1001' text='ENGINEERING CHEMISTRY' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
+            {/* <Link to='/full-playlists-chy1005'><Card color='#5d3be7' image='🧬' heading='CHY1005' text='INTRODUCTION TO COMPUTATIONAL CHEMISTRY' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
+            {/* <Link to='/full-playlists-phy1003'><Card color='#8b72ee' image='👨🏻‍🏫' heading='PHY1003' text='INTRODUCTION TO COMPUTATIONAL PHYSICS' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
 
-            <Link to='/full-playlists-cse2002'><Card color='#29b7dd' image='👨🏻‍💻' heading='CSE2002' text='DATA STRUCTURES AND ALGORITHM' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
-            <Link to='/full-playlists-cse3004'><Card color='#29b7dd' image='👨🏻‍💻' heading='CSE3004' text='DESIGN AND ANALYSIS OF ALGORITHM' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
+            {/* <Link to='/full-playlists-cse2002'><Card color='#29b7dd' image='👨🏻‍💻' heading='CSE2002' text='DATA STRUCTURES AND ALGORITHM' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
+            {/* <Link to='/full-playlists-cse3004'><Card color='#29b7dd' image='👨🏻‍💻' heading='CSE3004' text='DESIGN AND ANALYSIS OF ALGORITHM' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
             <Link to='/full-playlists-cse1021'><Card color='#8b72ee' image='👨🏻‍💻' heading='CSE1021' text='INTRODUCTION TO PROBLEM SOLVING AND PROGRAMMING' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
             <Link to='/full-playlists-mat2002'><Card color='#bd72ef' image='⩝' heading='MAT2002' text='DISCRETE MATHEMATICS AND GRAPH THEORY' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
 
-            <Link to='/full-playlists-mee2014'><Card color='#bd72ef' image='🪛' heading='MEE2014' text='ENGINEERING DESIGN AND MODELLING' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
-            <Link to='/full-playlists-chy1006'><Card color='#bd72ef' image='🌳' heading='CHY1006' text='ENVIRONMENTAL SUSTAINABILITY' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
+            {/* <Link to='/full-playlists-mee2014'><Card color='#bd72ef' image='🪛' heading='MEE2014' text='ENGINEERING DESIGN AND MODELLING' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
+            {/* <Link to='/full-playlists-chy1006'><Card color='#bd72ef' image='🌳' heading='CHY1006' text='ENVIRONMENTAL SUSTAINABILITY' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
             <Link to='/full-playlists-cse2001'><Card color='#bd72ef' image='👨🏻‍💻' heading='CSE2001' text='OBJECT ORINTED PROGRAMMING WITH C++' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
 
-            <Link to='/full-playlists-cse3011'><Card color='#bd72ef' image='👨🏻‍💻' heading='CSE3011' text='PYTHON PROGRAMMING' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
+            {/* <Link to='/full-playlists-cse3011'><Card color='#bd72ef' image='👨🏻‍💻' heading='CSE3011' text='PYTHON PROGRAMMING' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
             <Link to='/full-playlists-cse3003'><Card color='#bd72ef' image='🖥️' heading='CSE3003' text='OPERATING SYSTEM' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
-            <Link to='/full-playlists-cse2006'><Card color='#bd72ef' image='👨🏻‍💻' heading='CSE2006' text='PROGRAMMING IN JAVA' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
+            {/* <Link to='/full-playlists-cse2006'><Card color='#bd72ef' image='👨🏻‍💻' heading='CSE2006' text='PROGRAMMING IN JAVA' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link> */}
             <Link to='/full-playlists-cse3001'><Card color='#bd72ef' image='🖥️' heading='CSE3001' text='DATABASE MANAGEMENT SYSTEM' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer'/></Link>
           </div>
     </div>
