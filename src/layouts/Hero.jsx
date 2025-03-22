@@ -7,13 +7,26 @@ function Hero() {
     <div className={style['hero-container']}>
         <div className={style['content-container']}>
             <div className={style['heading-container']}>
-                <h1 className={style['heading']}>Excel in Your Studies</h1>
-                <p className={style['sub-heading']}>Unlock your academic potential with personalized study resources, tips, and support from 9 + CGPA achievers. Empowering students like you to achieve more, for less.</p>
+            {/* heading */}
+                <motion.h1 className={style['heading']}
+                >
+                  Excel in Your Studies
+                </motion.h1>
+
+                {/* sub-heading */}
+                <motion.p className={style['sub-heading']}
+                >
+                  Unlock your academic potential with personalized study resources, tips, and support from 9 + CGPA achievers. Empowering students like you to achieve more, for less.
+                </motion.p>
                 <Button text='Explore More'/>
             </div>
-            <div className={style['image-container']}>
+
+            {/* image */}
+            <motion.div className={style['image-container']}
+              
+            >
                 {/* <img src={image} alt="" /> */}
-            </div>
+            </motion.div>
         </div>
     </div>
   )
