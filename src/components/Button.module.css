@@ -10,12 +10,14 @@
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #29b7dd;
-    transition: all 0.2s;
+    transition: all 0.3s ease-out;
     cursor: pointer;
 }
 
 .button:hover{
-    background-color: #269dbe;
+    background-color: #1A98C7; /* Slightly darker on hover */
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 0px 5px 15px rgba(0, 170, 255, 0.4);
 }
 
 @media (max-width: 480px) {

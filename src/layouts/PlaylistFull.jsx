@@ -2,98 +2,11 @@ import React from 'react'
 import Card from '../components/Card'
 import style from './PlaylistFull.module.css'
 import { Link } from 'react-router-dom'
+import Subjects from '../components/Subjects'
 
 function PlaylistFull() {
-  const subjects = [
-    {
-      id:'1',
-      to : '/full-playlists-eee1001',
-      color: '#29b7dd',
-      image: '⚡',
-      heading: 'EEE1001',
-      text: 'EEE1001'
-    },
-    {
-      id:'2',
-      to : '/full-playlists-ece2002',
-      color: '#bd72ef',
-      image: '🖥️',
-      heading: 'ECE2002',
-      text: 'DIGITAL LOGIC DESIGN'
-    },
-    {
-      id:'3',
-      to : '/full-playlists-mat1001',
-      color: '#8b72ee',
-      image: '∭',
-      heading: 'MAT1001',
-      text: 'CALCULAS AND LAPLACE TRANSFORM'
-    },
-    {
-      id:'4',
-      to : '/full-playlists-csa2001',
-      color: '#5d3be7',
-      image: '🤖',
-      heading: 'CSA2001',
-      text: 'FUNDAMENTALS IN AI & ML'
-    },
-    {
-      id:'5',
-      to : '/full-playlists-mat2003',
-      color: '#5d3be7',
-      image: '🕵🏻‍♂️',
-      heading: 'MAT2003',
-      text: 'APPLIED NUMERICAL METHODS'
-    },
-    {
-      id:'6',
-      to : '/full-playlists-phy1001',
-      color: '#bd72ef',
-      image: '👨🏻‍🔬',
-      heading: 'PHY1001',
-      text: 'ENGINEERING PHYSICS'
-    },
-    {
-      id:'7',
-      to : '/full-playlists-cse1021',
-      color: '#8b72ee',
-      image: '👨🏻‍💻',
-      heading: 'CSE1021',
-      text: 'INTRODUCTION TO PROBLEM SOLVING AND PROGRAMMING'
-    },
-    {
-      id:'8',
-      to : '/full-playlists-mat2002',
-      color: '#bd72ef',
-      image: '⩝',
-      heading: 'MAT2002',
-      text: 'DISCRETE MATHEMATICS AND GRAPH THEORY'
-    },
-    {
-      id:'9',
-      to : '/full-playlists-cse2001',
-      color: '#bd72ef',
-      image: '👨🏻‍💻',
-      heading: 'CSE2001',
-      text: 'OBJECT ORINTED PROGRAMMING WITH C++'
-    },
-    {
-      id:'10',
-      to : '/full-playlists-cse3003',
-      color: '#bd72ef',
-      image: '🖥️',
-      heading: 'CSE3003',
-      text: 'OPERATING SYSTEM'
-    },
-    {
-      id:'11',
-      to : '/full-playlists-cse3001',
-      color: '#bd72ef',
-      image: '🖥️',
-      heading: 'CSE3001',
-      text: 'DATABASE MANAGEMENT SYSTEM'
-    },
-  ]
+  const subjects = Subjects
+  
   return (
     <div className={style['container']}>
         <div className={style['card-container']}>
