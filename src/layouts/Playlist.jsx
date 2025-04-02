@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import style from './Notes.module.css'
 import Card from '../components/Card'
+import style from './Playlist.module.css'
+import { Link } from 'react-router-dom'
 import Subjects from '../components/Subjects'
-import { Link } from 'react-router-dom';
-import SearchBar from '../components/SearchBar';
+import SearchBar from '../components/SearchBar'
 
-function Notes() {
-
+function Playlist() {
   const [subjects, setSubjects] = useState(Subjects);
   const [search, setSearch] = useState('');
 
@@ -36,4 +35,4 @@ function Notes() {
   )
 }
 
-export default Notes
+export default Playlist

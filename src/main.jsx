@@ -5,8 +5,6 @@ import './index.css'
 import MainLayout from './layouts/MainLayout.jsx'
 import Notes from './layouts/Notes.jsx'
 import Guidance from './layouts/Guidance.jsx'
-import PlaylistFull from './layouts/PlaylistFull.jsx'
-import PlaylistShort from './layouts/PlaylistShort.jsx'
 import About from './layouts/About.jsx'
 import Contact from './layouts/Contact.jsx'
 import EEE1001 from './layouts/fullPlaylists/EEE1001.jsx'
@@ -29,6 +27,8 @@ import CSE3011 from './layouts/fullPlaylists/CSE3011.jsx'
 import CSE3003 from './layouts/fullPlaylists/CSE3003.jsx'
 import CSE2006 from './layouts/fullPlaylists/CSE2006.jsx'
 import CSE3001 from './layouts/fullPlaylists/CSE3001.jsx'
+import Playlist from './layouts/Playlist.jsx'
+import PPT from './layouts/PPT.jsx'
 
 const router = createBrowserRouter([
   {
@@ -57,11 +57,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/playlist',
-        element: <PlaylistFull/>,
+        element: <Playlist/>,
       },
       {
-        path: '/last-minute-playlist',
-        element: <PlaylistShort/>,
+        path: '/ppt',
+        element: <PPT/>,
       },
       {
         path: '/full-playlists-eee1001',

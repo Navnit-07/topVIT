@@ -76,28 +76,28 @@ function Features({ heading = 'Key Features', text = '"Whether you’re struggli
                     >
 
                         {/* Card 1 */}
-                        <motion.div variants={cardVariants} whileHover={{ scale: 1.05 }}>
+                        <motion.div variants={cardVariants} whileHover={{ scale: 0.95 }}>
                             <Link to="/notes">
                                 <Card color='#29b7dd' image='📝' heading='Notes' text="Toppers' Notes" width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' />
                             </Link>
                         </motion.div>
 
                         {/* Card 2 */}
-                        <motion.div variants={cardVariants} whileHover={{ scale: 1.05 }}>
+                        <motion.div variants={cardVariants} whileHover={{ scale: 0.95 }}>
                             <Link to="/guidance">
                                 <Card color='#8b72ee' image='🕵🏻‍♂️' heading='Guidance' text='from 9+ CGPA Achievers' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' />
                             </Link>
                         </motion.div>
 
                         {/* Card 3 */}
-                        <motion.div variants={cardVariants} whileHover={{ scale: 1.05 }}>
-                            <Link to="/last-minute-playlist">
-                                <Card color='#5d3be7' image='💀' heading='Playlist' text='for Last-Minute Study' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' />
+                        <motion.div variants={cardVariants} whileHover={{ scale: 0.95 }}>
+                            <Link to="/ppt">
+                                <Card color='#5d3be7' image='👨🏻‍💻' heading='PPT' text='slides of Professor' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' />
                             </Link>
                         </motion.div>
 
                         {/* Card 4 */}
-                        <motion.div variants={cardVariants} whileHover={{ scale: 1.05 }}>
+                        <motion.div variants={cardVariants} whileHover={{ scale: 0.95 }}>
                             <Link to="/playlist">
                                 <Card color='#bd72ef' image='👨🏻‍🏫' heading='Playlist' text='followed by Toppers' width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' />
                             </Link>

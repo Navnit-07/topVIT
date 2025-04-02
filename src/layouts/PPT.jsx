@@ -1,21 +1,20 @@
 import React, { useEffect, useState } from 'react'
-import style from './Notes.module.css'
 import Card from '../components/Card'
-import Subjects from '../components/Subjects'
-import { Link } from 'react-router-dom';
-import SearchBar from '../components/SearchBar';
+import style from './PPT.module.css'
+import PPTSubjects from '../components/PPTSubjects'
+import { Link } from 'react-router-dom'
+import SearchBar from '../components/SearchBar'
 
-function Notes() {
-
-  const [subjects, setSubjects] = useState(Subjects);
+function PPT() {
+  const [subjects, setSubjects] = useState(PPTSubjects);
   const [search, setSearch] = useState('');
 
   useEffect(() => {
     if (search === '') {
-      setSubjects(Subjects);
+      setSubjects(PPTSubjects);
       return;
     }
-    const filteredSub = Subjects.filter((sub) => {
+    const filteredSub = PPTSubjects.filter((sub) => {
       return ((sub.heading.toLowerCase().includes(search) || (sub.text.toLowerCase().includes(search))));
     });
 
@@ -25,7 +24,7 @@ function Notes() {
 
   return (
     <div className={style['container']}>
-      <div className={style['search-bar']} ><SearchBar setSearch={setSearch} search={search} /></div>
+      <div  className={style['search-bar']} ><SearchBar setSearch={setSearch} search={search} /></div>
       <div className={style['card-container']}>
         {subjects.map((subject) => {
           return (<Link key={subject.id} to={subject.to} target='_blank'><Card color={subject.color} image={subject.image} heading={subject.heading} text={subject.text} width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' /></Link>)
@@ -36,4 +35,4 @@ function Notes() {
   )
 }
 
-export default Notes
+export default PPT
