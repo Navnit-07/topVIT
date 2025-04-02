@@ -27,7 +27,7 @@ function Playlist() {
       <div className={style['search-bar']} ><SearchBar setSearch={setSearch} search={search} /></div>
       <div className={style['card-container']}>
         {subjects.map((subject) => {
-          return (<Link key={subject.id} to={subject.to} target='_blank'><Card color={subject.color} image={subject.image} heading={subject.heading} text={subject.text} width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' /></Link>)
+          return (<Link key={subject.id} to={subject.to}><Card color={subject.color} image={subject.image} heading={subject.heading} text={subject.text} width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' /></Link>)
         })}
       </div>
       {!subjects.length && <h1 className={style['not-found']}>No subject found..</h1>}
