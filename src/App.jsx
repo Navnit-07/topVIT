@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './layouts/Navbar'
 import { Outlet } from 'react-router-dom'
 import Footer from './layouts/Footer'
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from '../ScrollToTop'
 
 function App() {
   return (
