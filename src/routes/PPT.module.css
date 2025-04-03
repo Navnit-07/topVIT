@@ -19,7 +19,7 @@
 }
 
 .card-container{
-    width: 90%;
+    width: 70%;
     margin: 5vh 0;
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,36 @@
     color: #111111;
 }
 
-@media (max-width: 714px) {
+.navigation{
+    width: 20%;
+    color: #111111;
+    align-self: start;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.navigation li{
+    list-style: none;
+}
+
+.navigation li div{
+    list-style: none;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #3b065e;
+}
+
+.navigation li div:hover{
+    scale: 1.05;
+}
+
+@media (max-width: 830px) {
     .card-container{
         justify-content: center;
     }

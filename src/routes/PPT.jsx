@@ -28,6 +28,10 @@ function PPT() {
         <h1 className={style.heading}>👨🏻‍💻 PPT</h1>
         <SearchBar setSearch={setSearch} search={search} />
       </div>
+      <div className={style.navigation}>
+        <li><Link to='/notes'><div>Notes</div></Link></li>
+        <li><Link to='/playlist'><div>Playlist</div></Link></li>
+      </div>
       <div className={style['card-container']}>
         {subjects.map((subject) => {
           return (<Link key={subject.id} to={subject.to} target='_blank'><Card color={subject.color} image={subject.image} heading={subject.heading} text={subject.text} width='285' height='240' colorHeading='#FFFFFF' colorText='#FFFFFF' cursor='pointer' /></Link>)

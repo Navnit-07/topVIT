@@ -65,6 +65,7 @@ ul{
     height: 80%;
     width: fit-content;
     overflow: hidden;
+    z-index: 100;
 }
 .hamburger-container img{
     height: 100%;

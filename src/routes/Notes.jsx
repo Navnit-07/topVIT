@@ -25,10 +25,14 @@ function Notes() {
 
   return (
     <div className={style['container']}>
-      
+
       <div className={style['header-container']} >
         <h1 className={style.heading}>📝 Notes</h1>
         <SearchBar setSearch={setSearch} search={search} />
+      </div>
+      <div className={style.navigation}>
+        <li><Link to='/ppt'><div>PPT</div></Link></li>
+        <li><Link to='/playlist'><div>Playlist</div></Link></li>
       </div>
       <div className={style['card-container']}>
         {subjects.map((subject) => {

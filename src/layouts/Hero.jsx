@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Hero.module.css";
 import Button from "../components/Button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const textVariants = {
   hidden: { opacity: 0, x: -100, scale: 0.8 },
@@ -42,7 +43,7 @@ function Hero() {
 
           {/* Button Animation */}
           <motion.div variants={buttonVariants}>
-            <Button text="Explore More" />
+            <Link to='/playlist'><Button text="Explore More" /></Link>
           </motion.div>
         </motion.div>
 

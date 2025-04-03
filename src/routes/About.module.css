@@ -13,3 +13,10 @@
     margin: 10vh 0;
     text-align: justify;
 }
+
+.heading {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    color: #2c3e50;
+}

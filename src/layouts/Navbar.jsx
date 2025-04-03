@@ -25,6 +25,9 @@ function Navbar() {
                 (   <div className={style['hamburger-menue']}>
                         <img src={hambCloseIcon} alt="X" onClick={()=>{setisMenueOpen(false)}}/>
                         <p><NavLink to='/'>Home</NavLink></p>
+                        <p><NavLink to='/notes'>Notes</NavLink></p>
+                        <p><NavLink to='/ppt'>PPT</NavLink></p>
+                        <p><NavLink to='/playlist'>Playlist</NavLink></p>
                         <p><NavLink to='/about'>About</NavLink></p>
                         <p><NavLink to='/contact'>Contact Us</NavLink></p>
                         </div>
