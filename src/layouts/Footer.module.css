@@ -1,36 +1,43 @@
-.footer-container{
-    min-height: 60vh;
-    padding: 10vh 5vh 1vh 5vh;
+/* Footer.module.css */
+
+.footer {
     background-color: #3b065e;
+    color: white;
+    padding: 10vh 5vw;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
-.footer-content{
-    max-width: 80vw;
+.title {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.contact-card{
-    max-width: 50vw;
-    margin: 0 auto;
-    padding: 5vh 0;
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.icons {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    user-select: text;
+    gap: 1.5rem;
+    font-size: 2rem;
 }
 
-@media (max-width:1440px) {
-    .contact-card{
-        flex-direction: column;
-        gap: 5vh;
-    }
+.icon {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
-@media (max-width:350px) {
-    .contact-card{
-        flex-direction: column;
-        gap: 5vh;
-    }
+
+.icon:hover {
+    color: #d8b6ff;
+    transform: scale(1.2);
+}
+
+.credit {
+    font-size: 0.9rem;
+    opacity: 0.7;
 }
