@@ -1,8 +1,11 @@
 import React from 'react'
+import style from './Error.module.css'
 
 function Error() {
   return (
-    <div>Error</div>
+    <div className={style.error}>
+      <h1>❌ 404 PAGE NOT FOUND</h1>
+    </div>
   )
 }
 

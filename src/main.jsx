@@ -29,11 +29,13 @@ import CSE3011 from './routes/fullPlaylists/CSE3011.jsx'
 import CSE3003 from './routes/fullPlaylists/CSE3003.jsx'
 import CSE2006 from './routes/fullPlaylists/CSE2006.jsx'
 import CSE3001 from './routes/fullPlaylists/CSE3001.jsx'
+import Error from './routes/Error.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App/>,
+    errorElement: <Error/>,
     children: [
       {
         path: '/',
